@@ -4,80 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>H. Hayes Muschany</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: 'Inter', sans-serif;
-    }
-    body {
-      background: #ffffff;
-      color: #111111;
-      line-height: 1.6;
-    }
-    header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding: 2rem 1rem;
-      background: #f9f9f9;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    }
-    header img {
-      width: 200px;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      margin-bottom: 1rem;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      background: #ffffff;
-      border-top: 1px solid #e0e0e0;
-      border-bottom: 1px solid #e0e0e0;
-      padding: 1rem 0;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-    nav a {
-      text-decoration: none;
-      color: #333;
-      font-weight: 600;
-    }
-    section {
-      padding: 2rem 1rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    p {
-      margin-bottom: 1.5rem;
-    }
-    .button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.75rem 1.25rem;
-      background: #222;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      font-size: 0.875rem;
-      color: #777;
-    }
-    .reading-entry {
-    margin-bottom: 2rem;
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 1.5rem;
-  }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
@@ -87,60 +14,55 @@
   </header>
 
   <nav>
-    <a href="#about">About</a>
-    <a href="#resume">Resume</a>
-    <a href="#reading">Reading Archive</a>
-    <a href="#reflection">Reflection</a>
+    <ul>
+      <li><a href="#foreword">Foreword</a></li>
+      <li><a href="#resume">Résumé</a></li>
+      <li><a href="#storytime">Storytime</a></li>
+      <li><a href="#reading">Selected Readings</a></li>
+    </ul>
   </nav>
 
-  <section id="about">
-    <h2>About</h2>
+  <section id="foreword">
+    <h2>Foreword</h2>
+    <p>I built this site from scratch using HTML, CSS, and GitHub Pages. I’ve never taken a formal coding class, so everything I learned came through a two-steps-forward, one-step-back kind of process — using AI tools to write, fix, and rewrite the underlying code.</p>
+
+    <p>Along the way, I learned how to manage a Git workflow, structure and style a clean public site, and customize everything to (hopefully) reflect my personality — organized and professional, but with room to breathe. It’s a space for the things I care about, the books I’m reading, and the tone I actually speak in.</p>
+
+    <p>But the goal wasn’t really to build a website — it was to prove something. I’ve worked in law, hospitality, and student leadership. I’ve studied economics, policy, and AI. I wanted to prove the same thing that led me to join the wakeboarding team without ever having surfed before: that, with a little help, I could do something hard I never thought I could do.</p>
+  </section>
+
+  <section id="resume">
+    <h2>Résumé</h2>
+    <object data="HHM_Resume.pdf" type="application/pdf" width="100%" height="600px">
+      <p>It appears you don't have a PDF plugin for this browser. You can <a href="HHM_Resume.pdf">click here to download the PDF file.</a></p>
+    </object>
+  </section>
+
+  <section id="storytime">
+    <h2>Storytime</h2>
     <p>I’m from Saint Louis, Missouri, and graduated from Westminster Christian Academy in 2021, where I played several sports and served on the Student Ambassador team. That role gave me early exposure to client-facing responsibilities — giving tours, hosting events, and helping organize graduation ceremonies. During summer breaks, I worked as a lifeguard at the local pool or as a salesman at the nearby Ace Hardware, where I developed early skills in communication and customer service.</p>
 
-    <p>I went on to Waco, Texas — home of Baylor University — where I earned my Bachelors degree in May 2025. While there I created the first risk management position on the Baylor Lacrosse team and participated in several other student organizations, including the Pre-Law Society, Student Movement Ministries, the Wakeboarding Team, and the Trap and Skeet Shooting Team.</p>
+    <p>I went on to Waco, Texas — home of Baylor University — where I created the first risk management position on the Baylor Lacrosse team and participated in several other student organizations, including the Pre-Law Society, Student Movement Ministries, the Wakeboarding Team, and the Trap and Skeet Shooting Team.</p>
 
     <p>Academically, I focused on economics while engaging in upper-level coursework across the College of Arts and Sciences, including social statistics, history, and pre-law seminars. Through this broad exposure, I developed a foundation in research, writing, and systems thinking. I’ve gained practical experience with analytical tools such as Stata, Excel, and Python, applying them in projects ranging from statistical modeling to economic analysis. I’ve also developed proficiency with AI tools — both in academic contexts and while building this website — using them to streamline workflows, enhance communication, and accelerate learning. I’m especially interested in the intersections of law, business, and public policy, and in making complex systems more transparent and effective.</p>
 
     <p>During my collegiate summers, I worked in a range of settings — from law firms to hospitality. I spent two summers at Lewis Rice LLC, a major law firm in St. Louis, supporting litigation teams by preparing mediation packets and summarizing deposition transcripts. I also worked as a club waiter and camp counselor, learning how to serve, lead, and communicate in fast-paced and responsibility-heavy environments.</p>
   </section>
 
-  <section id="resume">
-    <h2>Resume</h2>
-    <a class="button" href="HHM_Resume.pdf" target="_blank">Download Resume (PDF)</a>
-  </section>
-
   <section id="reading">
-  <h2>Reading Archive</h2>
+    <h2>Selected Readings</h2>
 
-  <div class="reading-entry">
-    <h3>Nudge</h3>
-    <p><strong>Author:</strong> Richard H. Thaler and Cass R. Sunstein</p>
-    <p>A behavioral economics book on how subtle policy design can guide better decision-making without restricting freedom of choice — foundational to understanding the concept of "libertarian paternalism."</p>
-  </div>
+    <div class="reading-entry">
+      <h3>Nudge</h3>
+      <p><strong>Author:</strong> Richard H. Thaler and Cass R. Sunstein</p>
+      <p>A behavioral economics book on how subtle policy design can guide better decision-making without restricting freedom of choice — foundational to understanding the concept of "libertarian paternalism."</p>
+    </div>
 
-  <div class="reading-entry">
-    <h3>Artificial Intelligence: A Guide for Thinking Humans</h3>
-    <p><strong>Author:</strong> Melanie Mitchell</p>
-    <p>An accessible but rigorous examination of how AI actually works, what its current limitations are, and how to separate hype from reality. Assigned in my Economics of AI course to enlighten my thinking about automation and human-machine boundaries.</p>
-  </div>
-</section>
-
-  <section id="reflection">
-  <h2>Reflection</h2>
-  <p>
-    I built this site from scratch using HTML, CSS, and GitHub Pages. I’ve never taken a formal coding class, so everything I learned came through a two-steps-forward, one-step-back kind of process — using AI tools to write, fix, and rewrite the underlying code.
-  </p>
-  <p>
-    Along the way, I learned how to manage a Git workflow, structure and style a clean public site, and customize everything to (hopefully) reflect my personality — organized and professional, but with room to breathe. It’s a space for the things I care about, the books I’m reading, and the tone I actually speak in.
-  </p>
-  <p>
-    But the goal wasn’t really to build a website — it was to prove something. I’ve worked in law, hospitality, and student leadership. I’ve studied economics, policy, and AI. I wanted to prove the same thing that led me to join the wakeboarding team without ever having surfed before: that, with a little help, I could do something hard I never thought I could do.
-  </p>
-</section>
-
-  <footer>
-    <p>Contact: hhmuschany@gmail.com</p>
-    <p>&copy; 2025 H. Hayes Muschany</p>
-  </footer>
+    <div class="reading-entry">
+      <h3>Artificial Intelligence: A Guide for Thinking Humans</h3>
+      <p><strong>Author:</strong> Melanie Mitchell</p>
+      <p>An accessible but rigorous examination of how AI actually works, what its current limitations are, and how to separate hype from reality. Assigned in my Economics of AI course to enlighten my thinking about automation and human-machine boundaries.</p>
+    </div>
+  </section>
 </body>
 </html>
