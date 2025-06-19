@@ -66,18 +66,22 @@ h1, h2, h3 {
   font-weight: bold;
 }
 
-.resume-link {
-  display: inline-block;
-  padding: 12px 20px;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-  margin-top: 10px;
-  transition: background-color 0.3s ease;
+.resume-bar {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 0.5rem 0;
+  margin-top: 1rem;
+  border-radius: 4px;
 }
 
-.resume-link:hover {
-  background-color: #555;
+.resume-button {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+}
+
+.resume-button:hover {
+  text-decoration: underline;
 }
